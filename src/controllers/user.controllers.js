@@ -117,9 +117,8 @@ export const deleteUser = async (req, res) => {
 // Funciones del login
 
 export const userLogin = async (req, res) => {
-  res.json({
-    first_name: "Login",
-  });
+    console.log("Login", req.body);
+    
 };
 
 export const userRegister = async (req, res) => {
